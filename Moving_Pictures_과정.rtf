@@ -1,0 +1,589 @@
+{\rtf1\ansi\ansicpg949\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Bold;\f1\fnil\fcharset0 HelveticaNeue-Bold;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red174\green0\blue75;
+\red52\green49\blue46;\red22\green52\blue207;\red21\green19\blue18;\red0\green0\blue0;\red18\green18\blue18;
+\red247\green249\blue250;\red237\green253\blue241;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c74510\c9412\c36471;
+\cssrgb\c26667\c25098\c23529;\cssrgb\c11373\c30588\c84706;\cssrgb\c10980\c9804\c9020;\csgray\c0;\cssrgb\c9020\c9020\c9020;
+\cssrgb\c97647\c98039\c98431\c10196;\cssrgb\c94118\c99216\c95686;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19980\viewh12320\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf2 QIIME 2\
+\
+.qza \'c6\'c4\'c0\'cf\
+: \'be\'c6\'c6\'bc\'c6\'d1\'c6\'ae \'c7\'fc\'c5\'c2  (\'b5\'a5\'c0\'cc\'c5\'cd \'c0\'af\'c7\'fc\'b0\'fa \'c3\'e2\'c3\'b3\'bf\'a1 \'b4\'eb\'c7\'d1 \'c1\'a4\'ba\'b8\'b0\'a1 \'c6\'f7\'c7\'d4.)\
+\
+.qzv \'c6\'c4\'c0\'cf \
+:qza\'b8\'a6 \'bd\'c3\'b0\'a2\'c8\'ad\
+\
+[\'c0\'af\'c0\'c7\'bb\'e7\'c7\'d7 \'b0\'e6\'b7\'ce\'bc\'b3\'c1\'a4 \'c1\'d6\'c0\'c7\'c7\'d2\'b0\'cd. ]\
+\
+\
+\
+\
+\
+\uc0\u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \
+QIIME2docs - moving-pictures \'bf\'b9\'c1\'a6 \'c7\'d0\'bd\'c0\
+\
+https://amplicon-docs.qiime2.org/en/latest/tutorials/moving-pictures.html#OVbB60dUWa\
+\
+\'b0\'a1\'bb\'f3\'c8\'af\'b0\'e6 list \'c8\'ae\'c0\'ce\
+\
+(base) iseungjun@iseungjun-ui-MacBookAir qiime % conda info --envs\
+\
+# conda environments:\
+#\
+base                 * /Users/iseungjun/miniconda3\
+                       /opt/miniconda3\
+                       /opt/miniconda3/envs/ocr_projects\
+                       /opt/miniconda3/envs/python_main\
+                       /opt/miniconda3/envs/qiime2-amplicon-2025.7\
+\
+\'b0\'a1\'bb\'f3\'c8\'af\'b0\'e6 \'c8\'b0\'bc\'ba\'c8\'ad : conda activate /opt/miniconda3/envs/qiime2-amplicon-2025.7\
+\
+Data \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data\
+\
+\uc0\u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \
+\
+0. <<< \'bb\'f9\'c7\'c3 \'b8\'de\'c5\'b8\'b5\'a5\'c0\'cc\'c5\'cd \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 >>>\
+- wget\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'bf\'a9 \'bf\'dc\'ba\'ce \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+wget -O 'sample-metadata.tsv' \\\
+  'https://moving-pictures-tutorial.readthedocs.io/en/latest/data/moving-pictures/sample-metadata.tsv'\
+\
+\uc0\u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \
+\
+1. <<< Tabulate - QIIME2\'c0\'c7 \'b8\'de\'c5\'b8\'b5\'a5\'c0\'cc\'c5\'cd \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce >>>\
+: \'bb\'f9\'c7\'c3 \'b8\'de\'c5\'b8\'b5\'a5\'c0\'cc\'c5\'cd \'c6\'c4\'c0\'cf\'c0\'bb \'c6\'ed\'b8\'ae\'c7\'cf\'b0\'d4 \'ba\'bc \'bc\'f6 \'c0\'d6\'b4\'c2 \'bd\'c3\'b0\'a2\'c8\'ad \'b5\'b5\'b1\'b8\'b8\'a6 \'c1\'a6\'b0\'f8\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\
+qiime metadata tabulate \\\
+  --m-input-file /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/sample-metadata.tsv \\\
+  --o-visualization sample-metadata-viz.qzv\
+\
+\uc0\u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \
+\
+2. <<< \'b5\'a5\'c0\'cc\'c5\'cd \'c8\'b9\'b5\'e6 \'b9\'d7 \'b0\'a1\'c1\'ae\'bf\'c0\'b1\'e2 >>>		\'c6\'fa\'b4\'f5 \'b0\'e6\'b7\'ce:\
+\
+\'c0\'cc \'ba\'d0\'bc\'ae\'bf\'a1 \'bb\'e7\'bf\'eb\'c7\'d2 \'bd\'c3\'c4\'f6\'bd\'ba \'b8\'ae\'b5\'e5\'b8\'a6 \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 (\'c7\'d8\'b4\'e7 \'c6\'a9\'c5\'e4\'b8\'ae\'be\'f3\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'fc\'c3\'bc \'bd\'c3\'c4\'f6\'bd\'ba \'c1\'df \'c0\'cf\'ba\'ce\'b8\'b8 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'b8\'ed\'b7\'c9\'c0\'bb \'ba\'fc\'b8\'a3\'b0\'d4 \'bd\'c7\'c7\'e0\'c7\'d2 \'bc\'f6 \'c0\'d6\'b5\'b5\'b7\'cf \'c7\'d5\'b4\'cf\'b4\'d9.)\
+\
+wget -O 'emp-single-end-sequences.zip' \\\
+  'https://moving-pictures-tutorial.readthedocs.io/en/latest/data/moving-pictures/emp-single-end-sequences.zip'\
+\
+unzip -d emp-single-end-sequences emp-single-end-sequences.zip\
+\
+\
+-> zip\'c6\'c4\'c0\'cf\'b0\'fa, \'be\'d0\'c3\'e0 \'c7\'ae\'c0\'ce \'c6\'c4\'c0\'cf \'b5\'ce \'b0\'b3\'b0\'a1 \'bb\'fd\'bc\'ba\
+\
+\'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce(\'bb\'f5 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'b8\'b8\'b5\'ea)\
+: /Users/iseungjun/Desktop/test_qiime2/qiime/emp-single-end-seq\
+\
+qiime tools import \\\
+  --type 'EMPSingleEndSequences' \\\
+  --input-path emp-single-end-sequences \\\
+  --output-path emp-single-end-sequences.qza\
+\
+<\'bc\'b3\'b8\'ed>\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 \expnd0\expndtw0\kerning0
+EMPSingleEndSequences.\uc0\u160 EMPSingleEndSequencesQIIME 2 \'be\'c6\'c6\'bc\'c6\'d1\'c6\'ae\'bf\'a1\'b4\'c2 \'b4\'d9\'c1\'df\'c8\'ad\'b5\'c8 \'bd\'c3\'c4\'f6\'bd\'ba\'b0\'a1 \'c6\'f7\'c7\'d4\'b5\'c7\'be\'ee \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'c1\'ef, \'bd\'c3\'c4\'f6\'bd\'ba\'b0\'a1 \'be\'c6\'c1\'f7 \'bb\'f9\'c7\'c3\'bf\'a1 \'c7\'d2\'b4\'e7\'b5\'c7\'c1\'f6 \'be\'ca\'be\'d2\'c0\'bd\'c0\'bb \'c0\'c7\'b9\'cc\'c7\'d5\'b4\'cf\'b4\'d9(\'bf\'a9\'b1\'e2\'bc\'ad\uc0\u160 barcodes.fastq.gz\'bf\'a1\'b4\'c2 \'c0\'c7 \'b0\'a2 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'cd \'bf\'ac\'b0\'fc\'b5\'c8 \'b9\'d9\'c4\'da\'b5\'e5\'b0\'a1 \'c6\'f7\'c7\'d4\'b5\'c7\'be\'ee \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9\cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \
+\uc0\u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \
+\
+3. <<< \'bd\'c3\'c4\'f6\'bd\'ba \'b5\'f0\'b8\'d6\'c6\'bc\'c7\'c3\'b7\'ba\'bd\'cc(Sequence Demultiplexing) >>>\
+\
+\'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/emp-single-end-seq\
+\'c3\'e2\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux\
+\
+<\'b1\'e2\'ba\'bb\'be\'e7\'bd\'c4>\
+qiime demux emp-single \\\
+  --i-seqs emp-single-end-sequences.qza \\ 			# \expnd0\expndtw0\kerning0
+-I (input): \'c0\'d4\'b7\'c2 \'b5\'a5\'c0\'cc\'c5\'cd (.qza \'c6\'c4\'c0\'cf)\kerning1\expnd0\expndtw0 \
+  --m-barcodes-file sample-metadata.tsv \\			# \expnd0\expndtw0\kerning0
+-m (metadata): \'b8\'de\'c5\'b8\'b5\'a5\'c0\'cc\'c5\'cd \'c6\'c4\'c0\'cf (\'ba\'b8\'c5\'eb .tsv \'c6\'c4\'c0\'cf)\kerning1\expnd0\expndtw0 \
+  --m-barcodes-column barcode-sequence \\			->  \'b8\'de\'c5\'b8\'b5\'a5\'c0\'cc\'c5\'cd\'c6\'c4\'c0\'cf\'c0\'c7 barcode-sequence \'c4\'c3\'b7\'b3\'c0\'bb \'bc\'b1\'c5\'c3\'c7\'d1\'b4\'d9.\
+  --o-per-sample-sequences demux.qza \\			# \expnd0\expndtw0\kerning0
+-o (output): \'c3\'e2\'b7\'c2 \'b5\'a5\'c0\'cc\'c5\'cd (.qza \'c6\'c4\'c0\'cf)\kerning1\expnd0\expndtw0 \
+  --o-error-correction-details demux-details.qza\
+\
+<\'b3\'bb \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'be\'e7\'bd\'c4>\
+qiime demux emp-single \\\
+  --i-seqs emp-single-end-sequences.qza \\\
+  --m-barcodes-file /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/sample-metadata.tsv \\\
+  --m-barcodes-column barcode-sequence \\\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0   --o-per-sample-sequences /Users/iseungjun/Desktop/test_qiime2/qiime/demux/demux.qza \\\
+  --o-error-correction-details /Users/iseungjun/Desktop/test_qiime2/qiime/demux/demux-details.qza\
+\
+\
+qiime demux summarize \\\
+  --i-data demux.qza \\\
+  --o-visualization demux.qzv\
+\uc0\u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \u8212 \
+4.1 <<< DADA2 >>>\
+- \cf6 \cb3 \expnd0\expndtw0\kerning0
+DADA2\cf5 \uc0\u160 \'b4\'c2 Illumina \'be\'da\'c7\'c3\'b8\'ae\'c4\'dc \'bd\'c3\'c4\'f6\'bd\'ba \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b0\'cb\'c3\'e2\'c7\'cf\'b0\'ed (\'b0\'a1\'b4\'c9\'c7\'d1 \'b0\'e6\'bf\'ec) \'bc\'f6\'c1\'a4\'c7\'cf\'b4\'c2 \'c6\'c4\'c0\'cc\'c7\'c1\'b6\'f3\'c0\'ce\'c0\'d4\'b4\'cf\'b4\'d9.\cf4 q2-dada2\cf5 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce\'bf\'a1 \'b1\'b8\'c7\'f6\'b5\'c8 \'c0\'cc \'c7\'b0\'c1\'fa \'b0\'fc\'b8\'ae \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'b4\'c2 \'bd\'c3\'c4\'f6\'bd\'cc \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1\'bc\'ad \'bd\'c4\'ba\'b0\'b5\'c8 \'b8\'f0\'b5\'e7 phiX \'b8\'ae\'b5\'e5(\'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce \'b8\'b6\'c4\'bf \'c0\'af\'c0\'fc\'c0\'da Illumina \'bd\'c3\'c4\'f6\'bd\'ba \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1 \'c1\'b8\'c0\'e7)\'b8\'a6 \'c3\'df\'b0\'a1\'b7\'ce \'c7\'ca\'c5\'cd\'b8\'b5\'c7\'cf\'b0\'ed, \'c5\'b0\'b8\'de\'b6\'f3 \'bd\'c3\'c4\'f6\'bd\'ba\'b5\'b5 \'c7\'ca\'c5\'cd\'b8\'b5\'c7\'d5\'b4\'cf\'b4\'d9.\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\
+\'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux\
+\'c3\'e2\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/dada2\
+\
+<\'b1\'e2\'ba\'bb\'be\'e7\'bd\'c4>\
+qiime dada2 denoise-single \\\
+  --i-demultiplexed-seqs demux.qza \\\
+  --p-trim-left 0 \\\
+  --p-trunc-len 120 \\\
+  --o-representative-sequences rep-seqs.qza \\\
+  --o-table table.qza \\\
+  --o-denoising-stats stats.qza\
+\
+\
+<\'b3\'bb \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'be\'e7\'bd\'c4>\
+qiime dada2 denoise-single \\\
+  --i-demultiplexed-seqs demux.qza \\\
+  --p-trim-left 0 \\\
+  --p-trunc-len 120 \\\
+  --o-representative-sequences /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/rep-seqs.qza \\\
+  --o-table /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/table.qza \\\
+  --o-denoising-stats /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/stats.qza\
+\
+<dada - stats - >Visualization>\
+qiime metadata tabulate \\\
+  --m-input-file stats.qza \\\
+  --o-visualization stats.qzv\
+\
+\
+4.2.1 <<< Deblur >>>\
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \expnd0\expndtw0\kerning0
+Deblur\'b4\'c2\cf5 \uc0\u160 \'bd\'c3\'c4\'f6\'bd\'ba \'bf\'c0\'b7\'f9 \'c7\'c1\'b7\'ce\'c6\'c4\'c0\'cf\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'bf\'c0\'b7\'f9\'b0\'a1 \'c0\'d6\'b4\'c2 \'bd\'c3\'c4\'f6\'bd\'ba \'b8\'ae\'b5\'e5\'b8\'a6 \'c7\'d8\'b4\'e7 \'b8\'ae\'b5\'e5\'b0\'a1 \'c0\'af\'b7\'a1\'b5\'c8 \'bd\'c7\'c1\'a6 \'bb\'fd\'b9\'b0\'c7\'d0\'c0\'fb \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'cd \'bf\'ac\'b0\'fc\'bd\'c3\'c4\'d1 \'b0\'ed\'c7\'b0\'c1\'fa \'bd\'c3\'c4\'f6\'bd\'ba \'ba\'af\'c0\'cc \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc\'b4\'c2 \'b5\'ce \'b4\'dc\'b0\'e8\'b7\'ce \'c1\'f8\'c7\'e0\'b5\'cb\'b4\'cf\'b4\'d9. \'c3\'b9\'c2\'b0, \'c7\'b0\'c1\'fa \'c1\'a1\'bc\'f6\'bf\'a1 \'b1\'e2\'b9\'dd\'c7\'d1 \'c3\'ca\'b1\'e2 \'c7\'b0\'c1\'fa \'c7\'ca\'c5\'cd\'b8\'b5 \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'b8\'a6 \'c0\'fb\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc \'b9\'e6\'b9\'fd\'c0\'ba\cf6 \uc0\u160 Bokulich \'bf\'dc \'bf\'ac\'b1\'b8\'c1\'f8(2013)\cf5 \uc0\u160 \'c0\'cc \'bc\'b3\'b8\'ed\'c7\'d1 \'c7\'b0\'c1\'fa \'c7\'ca\'c5\'cd\'b8\'b5 \'c1\'a2\'b1\'d9\'b9\'fd\'c0\'bb \'b1\'b8\'c7\'f6\'c7\'d1 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9 .\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux\cf5 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur\cf5 \cb3 \expnd0\expndtw0\kerning0
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 <\'b1\'e2\'ba\'bb\'be\'e7\'bd\'c4>\cf5 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 qiime quality-filter q-score \\\
+  --i-demux demux.qza \\\
+  --o-filtered-sequences demux-filtered.qza \\\
+  --o-filter-stats demux-filter-stats.qza\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 <\'b3\'bb \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'be\'e7\'bd\'c4>\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+qiime quality-filter q-score \\\
+  --i-demux demux.qza \\\
+  --o-filtered-sequences \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur/\cf5 \cb3 \expnd0\expndtw0\kerning0
+demux-filtered.qza \\\
+  --o-filter-stats \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur/\cf5 \cb3 \expnd0\expndtw0\kerning0
+demux-filter-stats.qza\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/deblur\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur/denoise/deblur-stats.qza\
+\
+qiime deblur denoise-16S \\\
+  --i-demultiplexed-seqs demux-filtered.qza \\\
+  --p-trim-length 120 \\\
+  --p-sample-stats \\\
+  --o-representative-sequences rep-seqs-deblur.qza \\\
+  --o-table table-deblur.qza \\\
+  --o-stats deblur-stats.qza\
+ \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/deblur\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \expnd0\expndtw0\kerning0
+qiime metadata tabulate \\\
+  --m-input-file demux-filter-stats.qza \\\
+  --o-visualization demux-filter-stats.qzv\
+\pard\pardeftab720\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \expnd0\expndtw0\kerning0
+qiime deblur visualize-stats \\\
+  --i-deblur-stats deblur-stats.qza \\\
+  --o-visualization deblur-stats.qzv\
+\pard\pardeftab720\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\
+\
+-> \'c0\'cc\'b8\'a7 \'ba\'af\'b0\'e6\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\
+mv rep-seqs-deblur.qza rep-seqs.qza\
+mv table-deblur.qza table.qza\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 4.2.2 <<< \cf7 \cb3 \expnd0\expndtw0\kerning0
+FeatureTable and FeatureData summaries\cf0 \cb1 \kerning1\expnd0\expndtw0  >>>\cf7 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c7\'b0\'c1\'fa \'c7\'ca\'c5\'cd\'b8\'b5 \'b4\'dc\'b0\'e8\'b0\'a1 \'bf\'cf\'b7\'e1\'b5\'c7\'b8\'e9 \'b0\'e1\'b0\'fa \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'bb\'ec\'c6\'ec\'ba\'bc \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'b4\'d9\'c0\'bd \'b5\'ce \'b8\'ed\'b7\'c9\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b8\'e9 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 \'bd\'c3\'b0\'a2\'c0\'fb \'bf\'e4\'be\'e0\'c0\'bb \'bb\'fd\'bc\'ba\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc\uc0\u160 \cf4 feature-table summarize\cf5 \'b8\'ed\'b7\'c9\'c0\'ba \'b0\'a2 \'bb\'f9\'c7\'c3 \'b9\'d7 \'b0\'a2 \'c6\'af\'c2\'a1\'b0\'fa \'bf\'ac\'b0\'fc\'b5\'c8 \'bd\'c3\'c4\'f6\'bd\'ba \'bc\'f6, \'c7\'d8\'b4\'e7 \'ba\'d0\'c6\'f7\'c0\'c7 \'c8\'f7\'bd\'ba\'c5\'e4\'b1\'d7\'b7\'a5, \'b1\'d7\'b8\'ae\'b0\'ed \'b0\'fc\'b7\'c3 \'bf\'e4\'be\'e0 \'c5\'eb\'b0\'e8 \'c1\'a4\'ba\'b8\'b8\'a6 \'c1\'a6\'b0\'f8\'c7\'d5\'b4\'cf\'b4\'d9. \'b6\'c7\'c7\'d1\uc0\u160 \cf4 feature-table tabulate-seqs\cf5 \'c6\'af\'c2\'a1 ID\'bf\'cd \'bd\'c3\'c4\'f6\'bd\'ba \'b0\'a3\'c0\'c7 \'b8\'c5\'c7\'ce\'c0\'bb \'c1\'a6\'b0\'f8\'c7\'cf\'b0\'ed, NCBI nt \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba\'bf\'a1\'bc\'ad \'b0\'a2 \'bd\'c3\'c4\'f6\'bd\'ba\'b8\'a6 \'bd\'b1\'b0\'d4 BLAST\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b8\'b5\'c5\'a9\'b8\'a6 \'c1\'a6\'b0\'f8\'c7\'d5\'b4\'cf\'b4\'d9. \'c8\'c4\'c0\'da\'c0\'c7 \'bd\'c3\'b0\'a2\'c8\'ad\'b4\'c2 \'c6\'a9\'c5\'e4\'b8\'ae\'be\'f3 \'c8\'c4\'b9\'dd\'ba\'ce\'bf\'a1\'bc\'ad \'b5\'a5\'c0\'cc\'c5\'cd \'bc\'bc\'c6\'ae\'bf\'a1\'bc\'ad \'c1\'df\'bf\'e4\'c7\'d1 \'c6\'af\'c1\'a4 \'c6\'af\'c2\'a1\'bf\'a1 \'b4\'eb\'c7\'d8 \'c0\'da\'bc\'bc\'c8\'f7 \'be\'cb\'be\'c6\'ba\'b8\'b0\'ed \'bd\'cd\'c0\'bb \'b6\'a7 \'b8\'c5\'bf\'ec \'c0\'af\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9.\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+\'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf0 \cb1 \kerning1\expnd0\expndtw0 /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 <\'b1\'e2\'ba\'bb\'be\'e7\'bd\'c4>\
+\pard\pardeftab720\partightenfactor0
+\cf0 qiime feature-table summarize \\\
+  --i-table table.qza \\\
+  --m-sample-metadata-file sample-metadata.tsv \\\
+  --o-visualization table.qzv\
+qiime feature-table tabulate-seqs \\\
+  --i-data rep-seqs.qza \\\
+  --o-visualization rep-seqs.qzv\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 <\'b3\'bb \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'be\'e7\'bd\'c4>\
+\pard\pardeftab720\partightenfactor0
+\cf0 qiime feature-table summarize \\\
+  --i-table table.qza \\\
+  --m-sample-metadata-file /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/sample-metadata.tsv \\\
+  --o-visualization table.qzv\
+qiime feature-table tabulate-seqs \\\
+  --i-data rep-seqs.qza \\\
+  --o-visualization rep-seqs.qzv\
+\
+\
+\
+5. \cf7 \cb3 \expnd0\expndtw0\kerning0
+Generate a tree for phylogenetic diversity analyses\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+QIIME\'b4\'c2 Faith\'c0\'c7 Phylogenetic Diversity, \'b0\'a1\'c1\'df\'c4\'a1 \'c0\'fb\'bf\'eb \'b9\'d7 \'ba\'f1\'b0\'a1\'c1\'df UniFrac\'c0\'bb \'c6\'f7\'c7\'d4\'c7\'d1 \'bf\'a9\'b7\'af \'b0\'e8\'c5\'eb\'c7\'d0\'c0\'fb \'b4\'d9\'be\'e7\'bc\'ba \'c1\'f6\'c7\'a5\'b8\'a6 \'c1\'f6\'bf\'f8\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc\'b7\'af\'c7\'d1 \'c1\'f6\'c7\'a5\'b4\'c2 \'bb\'f9\'c7\'c3\'b4\'e7 \'c6\'af\'c2\'a1 \'b0\'b3\'bc\'f6(\'c1\'ef, QIIME 2 \'be\'c6\'c6\'bc\'c6\'d1\'c6\'ae\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd) \'bf\'dc\'bf\'a1\'b5\'b5\uc0\u160 \cf4 FeatureTable[Frequency]\cf5 \'c6\'af\'c2\'a1\'b5\'e9\'c0\'bb \'bc\'ad\'b7\'ce \'bf\'ac\'b0\'e1\'c7\'cf\'b4\'c2 \'b7\'e7\'c6\'ae \'b1\'e2\'b9\'dd \'b0\'e8\'c5\'eb\'c7\'d0\'c0\'fb \'c6\'ae\'b8\'ae\'b8\'a6 \'c7\'ca\'bf\'e4\'b7\'ce \'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc \'c1\'a4\'ba\'b8\'b4\'c2 QIIME 2 \'be\'c6\'c6\'bc\'c6\'d1\'c6\'ae\'bf\'a1 \'c0\'fa\'c0\'e5\'b5\'cb\'b4\'cf\'b4\'d9 . \'b0\'e8\'c5\'eb\'c7\'d0\'c0\'fb \'c6\'ae\'b8\'ae\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce\uc0\u160 \'c0\'c7 \'c6\'c4\'c0\'cc\'c7\'c1\'b6\'f3\'c0\'ce\'c0\'bb\u160 \cf4 Phylogeny[Rooted]\cf5 \'bb\'e7\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9\uc0\u160 .\cf4 align-to-tree-mafft-fasttreeq2-phylogeny\
+\
+\cf5 \'c6\'c4\'c0\'cc\'c7\'c1\'b6\'f3\'c0\'ce\'c0\'ba\uc0\u160 \cf4 mafft\cf5 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'bd\'c3\'c4\'f6\'bd\'ba\'c0\'c7 \'b4\'d9\'c1\'df \'bd\'c3\'c4\'f6\'bd\'ba \'c1\'a4\'b7\'c4\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'cf\'bf\'a9 QIIME 2 \'be\'c6\'c6\'bc\'c6\'d1\'c6\'ae\'b8\'a6\uc0\u160 \cf4 FeatureData[Sequence]\cf5 \'bb\'fd\'bc\'ba\'c7\'d5\'b4\'cf\'b4\'d9\uc0\u160 \cf4 FeatureData[AlignedSequence]\cf5 . \'b4\'d9\'c0\'bd\'c0\'b8\'b7\'ce, \'c6\'c4\'c0\'cc\'c7\'c1\'b6\'f3\'c0\'ce\'c0\'ba \'c1\'a4\'b7\'c4\'c0\'bb \'b8\'b6\'bd\'ba\'c5\'a9(\'b6\'c7\'b4\'c2 \'c7\'ca\'c5\'cd\'b8\'b5)\'c7\'cf\'bf\'a9 \'ba\'af\'b5\'bf\'bc\'ba\'c0\'cc \'c5\'ab \'c0\'a7\'c4\'a1\'b8\'a6 \'c1\'a6\'b0\'c5\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc\'b7\'af\'c7\'d1 \'c0\'a7\'c4\'a1\'b4\'c2 \'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce \'b0\'e1\'b0\'fa \'b0\'e8\'c5\'eb\'bc\'f6\'bf\'a1 \'b3\'eb\'c0\'cc\'c1\'ee\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'b8\'b7\'ce \'b0\'a3\'c1\'d6\'b5\'cb\'b4\'cf\'b4\'d9. \'b1\'d7 \'c8\'c4, \'c6\'c4\'c0\'cc\'c7\'c1\'b6\'f3\'c0\'ce\'c0\'ba FastTree\'b8\'a6 \'c0\'fb\'bf\'eb\'c7\'cf\'bf\'a9 \'b8\'b6\'bd\'ba\'c5\'a9\'b5\'c8 \'c1\'a4\'b7\'c4\'bf\'a1\'bc\'ad \'b0\'e8\'c5\'eb\'bc\'f6\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'d5\'b4\'cf\'b4\'d9. FastTree \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'ba \'b7\'e7\'c6\'c3\'b5\'c7\'c1\'f6 \'be\'ca\'c0\'ba \'c6\'ae\'b8\'ae\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'cf\'b9\'c7\'b7\'ce, \'c0\'cc \'bc\'bd\'bc\'c7\'c0\'c7 \'b8\'b6\'c1\'f6\'b8\'b7 \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad\'b4\'c2 \'c1\'df\'b0\'a3\'c1\'a1 \'b7\'e7\'c6\'c3\'c0\'bb \'c0\'fb\'bf\'eb\'c7\'cf\'bf\'a9 \'b7\'e7\'c6\'ae\'b0\'a1 \'be\'f8\'b4\'c2 \'c6\'ae\'b8\'ae\'bf\'a1\'bc\'ad \'b0\'a1\'c0\'e5 \'b1\'e4 \'c6\'c1 \'b0\'a3 \'b0\'c5\'b8\'ae\'c0\'c7 \'c1\'df\'b0\'a3\'c1\'a1\'bf\'a1 \'c6\'ae\'b8\'ae\'c0\'c7 \'b7\'e7\'c6\'ae\'b8\'a6 \'b9\'e8\'c4\'a1\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/demux/denoise\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\'c3\'e2\'b7\'c2\'b0\'e6\'b7\'ce: \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/phylogenetic/\
+\cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+[\cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 phylogenetic \cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \'bb\'fd\'bc\'ba]\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 <\'b1\'e2\'ba\'bb\'be\'e7\'bd\'c4>\cf5 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 qiime phylogeny align-to-tree-mafft-fasttree \\\
+  --i-sequences rep-seqs.qza \\\
+  --o-alignment aligned-rep-seqs.qza \\\
+  --o-masked-alignment masked-aligned-rep-seqs.qza \\\
+  --o-tree unrooted-tree.qza \\\
+  --o-rooted-tree rooted-tree.qza\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 <\'b3\'bb \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'be\'e7\'bd\'c4>\cf5 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 qiime phylogeny align-to-tree-mafft-fasttree \\\
+  --i-sequences rep-seqs.qza \\\
+  --o-alignment \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/phylogenetic/\cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 aligned-rep-seqs.qza \\\
+  --o-masked-alignment \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/phylogenetic/\cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 masked-aligned-rep-seqs.qza \\\
+  --o-tree \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/phylogenetic/\cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 unrooted-tree.qza \\\
+  --o-rooted-tree \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/phylogenetic/\cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 rooted-tree.qza\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb3 \expnd0\expndtw0\kerning0
+6.\cf5  \cf7 \'be\'cb\'c6\'c4 \'b9\'d7 \'ba\'a3\'c5\'b8 \'b4\'d9\'be\'e7\'bc\'ba \'ba\'d0\'bc\'ae\
+6.1 <\cf5 principle coordinates analysis (PCoA) plots using Emperor\uc0\u160 \cf7 >\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa60\partightenfactor0
+\ls1\ilvl0\cf5 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Alpha diversity\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa60\partightenfactor0
+\ls1\ilvl1\cf5 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Shannon\'a1\'afs diversity index (a quantitative measure of community richness)\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Observed Features (a qualitative measure of community richness)\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Faith\'a1\'afs Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Evenness (or Pielou\'a1\'afs Evenness; a measure of community evenness)\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa60\partightenfactor0
+\ls1\ilvl0\cf5 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Beta diversity\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa60\partightenfactor0
+\ls1\ilvl1\cf5 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Jaccard distance (a qualitative measure of community dissimilarity)\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Bray-Curtis distance (a quantitative measure of community dissimilarity)\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+unweighted UniFrac distance (a qualitative measure of community dissimilarity that incorporates phylogenetic relationships between the features)\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+weighted UniFrac distance (a quantitative measure of community dissimilarity that incorporates phylogenetic relationships between the features)\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb3 \
+\
+\cf0 \cb1 \kerning1\expnd0\expndtw0 [dada2] table.qza -> \'ba\'d2\'b0\'a1\'b4\'c9.\
+[deblur]\
+qiime diversity core-metrics-phylogenetic \\\
+  --i-phylogeny rooted-tree.qza \\\
+  --i-table \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur/denoise/\cf0 \CocoaLigature1 table.qza \\\
+  --p-sampling-depth 1103 \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --output-dir diversity-core-metrics-phylogenetic\
+\
+\cf7 \cb3 \expnd0\expndtw0\kerning0
+6.2 <\cf5 Alpha and Beta\uc0\u160 \cf7 >\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+qiime diversity alpha-group-significance \\\
+  --i-alpha-diversity diversity-core-metrics-phylogenetic/faith_pd_vector.qza \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --o-visualization faith-pd-group-significance.qzv\
+qiime diversity alpha-group-significance \\\
+  --i-alpha-diversity diversity-core-metrics-phylogenetic/evenness_vector.qza \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --o-visualization evenness-group-significance.qzv\
+\
+\
+qiime diversity beta-group-significance \\\
+  --i-distance-matrix diversity-core-metrics-phylogenetic/unweighted_unifrac_distance_matrix.qza \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --m-metadata-column body-site \\\
+  --p-pairwise \\\
+  --o-visualization unweighted-unifrac-body-site-group-significance.qzv\
+qiime diversity beta-group-significance \\\
+  --i-distance-matrix diversity-core-metrics-phylogenetic/unweighted_unifrac_distance_matrix.qza \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --m-metadata-column subject \\\
+  --p-pairwise \\\
+  --o-visualization unweighted-unifrac-subject-group-significance.qzv\
+\
+\
+\cf7 \cb3 \expnd0\expndtw0\kerning0
+6.2 <\cf5 emperor plot\uc0\u160 \cf7 >\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+qiime emperor plot \\\
+  --i-pcoa diversity-core-metrics-phylogenetic/unweighted_unifrac_pcoa_results.qza \\\
+  --m-metadata-file  \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --p-custom-axes days-since-experiment-start \\\
+  --o-visualization unweighted-unifrac-emperor-days-since-experiment-start.qzv\
+qiime emperor plot \\\
+  --i-pcoa diversity-core-metrics-phylogenetic/bray_curtis_pcoa_results.qza \\\
+  --m-metadata-file  \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --p-custom-axes days-since-experiment-start \\\
+  --o-visualization bray-curtis-emperor-days-since-experiment-start.qzv\
+\
+\pard\pardeftab720\sa360\partightenfactor0
+\cf7 \cb3 \expnd0\expndtw0\kerning0
+7.Alpha rarefaction plotting\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 qiime diversity alpha-rarefaction \\\
+  --i-table \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/deblur/denoise/\cf0 \CocoaLigature1 table.qza \\\
+  --i-phylogeny rooted-tree.qza \\\
+  --p-max-depth 4000 \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --o-visualization alpha-rarefaction.qzv\
+\
+\
+\
+\pard\pardeftab720\sa360\partightenfactor0
+\cf7 \cb3 \expnd0\expndtw0\kerning0
+8.Taxonomic analysis\
+\pard\pardeftab720\sa400\partightenfactor0
+\cf5 \'b4\'d9\'c0\'bd \'bc\'bd\'bc\'c7\'bf\'a1\'bc\'ad\'b4\'c2 \'bb\'f9\'c7\'c3\'c0\'c7 \'ba\'d0\'b7\'f9\'c7\'d0\'c0\'fb \'b1\'b8\'bc\'ba\'c0\'bb \'bb\'ec\'c6\'ec\'ba\'b8\'b0\'ed, \'c0\'cc\'b8\'a6 \'b4\'d9\'bd\'c3 \'bb\'f9\'c7\'c3 \'b8\'de\'c5\'b8\'b5\'a5\'c0\'cc\'c5\'cd\'bf\'cd \'bf\'ac\'b0\'fc\'bd\'c3\'c4\'d1 \'ba\'b8\'b0\'da\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc \'b0\'fa\'c1\'a4\'c0\'c7 \'c3\'b9 \'b9\'f8\'c2\'b0 \'b4\'dc\'b0\'e8\'b4\'c2\uc0\u160 \cf4 FeatureData[Sequence]\cf5 QIIME 2 \'be\'c6\'c6\'bc\'c6\'d1\'c6\'ae\'c0\'c7 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1 \'ba\'d0\'b7\'f9\'b9\'fd\'c0\'bb \'c7\'d2\'b4\'e7\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9. \'bb\'e7\'c0\'fc \'c8\'c6\'b7\'c3\'b5\'c8 \'b3\'aa\'c0\'cc\'ba\'ea \'ba\'a3\'c0\'cc\'c1\'ee \'ba\'d0\'b7\'f9\'b1\'e2\'bf\'cd\uc0\u160 \cf4 q2-feature-classifier\cf5 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'c0\'cc\'b8\'a6 \'bc\'f6\'c7\'e0\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc \'ba\'d0\'b7\'f9\'b1\'e2\'b4\'c2 Greengenes 13_8 99% OTU\'bf\'a1\'bc\'ad \'c8\'c6\'b7\'c3\'b5\'c7\'be\'fa\'c0\'b8\'b8\'e7, \'c0\'cc \'ba\'d0\'bc\'ae\'bf\'a1\'bc\'ad \'bd\'c3\'c4\'f6\'bd\'cc\'b5\'c8 16S \'bf\'b5\'bf\'aa(515F/806R \'c7\'c1\'b6\'f3\'c0\'cc\'b8\'d3 \'bd\'d6\'bf\'a1 \'c0\'c7\'c7\'d8 \'b0\'e1\'c7\'d5\'b5\'c8 V4 \'bf\'b5\'bf\'aa)\'bf\'a1\'bc\'ad 250\'b0\'b3\'c0\'c7 \'bf\'b0\'b1\'e2\'b8\'b8 \'c6\'f7\'c7\'d4\'c7\'cf\'b5\'b5\'b7\'cf \'bd\'c3\'c4\'f6\'bd\'ba\'b8\'a6 \'c6\'ae\'b8\'ae\'b9\'d6\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc \'ba\'d0\'b7\'f9\'b1\'e2\'b8\'a6 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1 \'c0\'fb\'bf\'eb\'c7\'cf\'b8\'e9 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1\'bc\'ad \'ba\'d0\'b7\'f9\'b9\'fd\'c0\'b8\'b7\'ce \'b8\'c5\'c7\'ce\'b5\'c8 \'b0\'e1\'b0\'fa\'c0\'c7 \'bd\'c3\'b0\'a2\'c8\'ad\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb1 \
+\pard\pardeftab720\sa400\partightenfactor0
+\cf5 \cb10 \'ba\'bb \'bf\'ac\'b1\'b8\'bf\'a1 \'bb\'e7\'bf\'eb\'b5\'c8 \'ba\'d0\'b7\'f9 \'ba\'d0\'b7\'f9\'b1\'e2\'b4\'c2 \'ba\'bb \'bf\'ac\'b1\'b8\'bf\'a1 \'bb\'e7\'bf\'eb\'b5\'c8 \'bd\'c3\'b7\'e1 \'c0\'fc\'c3\'b3\'b8\'ae \'b9\'d7 \'bd\'c3\'c4\'f6\'bd\'cc \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\'bf\'a1 \'b8\'c5\'bf\'ec \'c6\'af\'c8\'ad\'b5\'c7\'be\'ee \'c0\'d6\'c0\'b8\'b8\'e7,\uc0\u160 {\field{\*\fldinst{HYPERLINK "https://forum.qiime2.org/t/introducing-greengenes2-2022-10/25291"}}{\fldrslt \cf7 \ul \ulc7 \'c7\'d0\'bd\'c0\'bf\'a1 \'bb\'e7\'bf\'eb\'b5\'c8 Greengenes 13_8\'c0\'ba \'bf\'c0\'b7\'a1\'b5\'c8 \'c2\'fc\'c1\'b6 \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba\'c0\'d4\'b4\'cf\'b4\'d9}}\uc0\u160 . \'ba\'bb \'bf\'ac\'b1\'b8\'bf\'a1\'bc\'ad Greengenes 13_8\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c0\'cc\'c0\'af\'b4\'c2 \'c2\'fc\'c1\'b6 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'ba\'f1\'b1\'b3\'c0\'fb \'c0\'fb\'be\'ee \'b4\'eb\'ba\'ce\'ba\'d0\'c0\'c7 \'c3\'d6\'bd\'c5 \'c4\'c4\'c7\'bb\'c5\'cd\'bf\'a1\'bc\'ad \'c0\'cc \'ba\'d0\'b7\'f9\'b1\'e2\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'ba\'d0\'b7\'f9 \'c0\'db\'be\'f7\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'d2 \'bc\'f6 \'c0\'d6\'b1\'e2 \'b6\'a7\'b9\'ae\'c0\'d4\'b4\'cf\'b4\'d9.\cb1 \
+\cb10 \'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce, \'bd\'c3\'c4\'f6\'bd\'cc\'bf\'a1 \'bb\'e7\'bf\'eb\'c7\'d1 \'c7\'c1\'b6\'f3\'c0\'cc\'b8\'d3\'b8\'a6 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce \'c6\'ae\'b8\'ae\'b9\'d6\'b5\'c8 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1\'bc\'ad \'c7\'d0\'bd\'c0\'b5\'c8 \'ba\'d0\'b7\'f9\'b1\'e2\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d2 \'c7\'ca\'bf\'e4\'b4\'c2 \'be\'f8\'b4\'d9\'b0\'ed \'bb\'fd\'b0\'a2\'c7\'d5\'b4\'cf\'b4\'d9. \'bd\'c7\'c1\'a6\'b7\'ce\'b4\'c2 \'c0\'fc\'c3\'bc \'b1\'e6\'c0\'cc\'c0\'c7 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1\'bc\'ad \'c7\'d0\'bd\'c0\'b5\'c8 \'ba\'d0\'b7\'f9\'b1\'e2\'bf\'cd \'ba\'f1\'b1\'b3\'c7\'df\'c0\'bb \'b6\'a7 \'b8\'c5\'bf\'ec \'b9\'cc\'b9\'cc\'c7\'d1 \'c2\'f7\'c0\'cc\'b8\'b8 \'b9\'df\'b0\'df\'b5\'cb\'b4\'cf\'b4\'d9.\uc0\u160 \cf6 Kaehler et al.(2019)\cf5 \uc0\u160 \'bf\'a1 \'bc\'b3\'b8\'ed\'b5\'c8 \'b0\'cd\'c3\'b3\'b7\'b3 \'c8\'af\'b0\'e6 \'b0\'a1\'c1\'df\'c4\'a1 \'ba\'d0\'b7\'f9\'b1\'e2\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'c8\'ce\'be\'c0 \'b4\'f5 \'c8\'bf\'b0\'fa\'c0\'fb\'c0\'d4\'b4\'cf\'b4\'d9 .\cb1 \
+\cb10 \'c1\'f7\'c1\'a2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b4\'d9\'b7\'ea \'c1\'d8\'ba\'f1\'b0\'a1 \'b5\'c7\'b8\'e9, \'be\'ee\'b6\'b2 \'ba\'d0\'b7\'f9\'b1\'e2\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d2\'c1\'f6 \'b0\'e1\'c1\'a4\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9. \'bb\'e7\'c0\'fc \'c7\'d0\'bd\'c0\'b5\'c8 \'ba\'d0\'b7\'f9\'b1\'e2\'b4\'c2\uc0\u160 {\field{\*\fldinst{HYPERLINK "https://resources.qiime2.org/"}}{\fldrslt \cf7 \ul \ulc7 \'b8\'ae\'bc\'d2\'bd\'ba\uc0\u160 \'c6\'e4\'c0\'cc\'c1\'f6}}\uc0\u160 \'bf\'a1\'bc\'ad \'c3\'a3\'c0\'bb \'bc\'f6 \'c0\'d6\'c0\'b8\'b8\'e7,\u160 {\field{\*\fldinst{HYPERLINK "https://forum.qiime2.org/tag/taxonomy"}}{\fldrslt \cf7 \ul \ulc7 \'c6\'f7\'b7\'b3\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'cc \'c1\'d6\'c1\'a6\'bf\'a1 \'b4\'eb\'c7\'d1 \'b4\'d9\'be\'e7\'c7\'d1 \'c5\'e4\'b7\'d0\'c0\'bb}}\uc0\u160 \'c8\'ae\'c0\'ce\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9 .\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/\
+\pard\pardeftab720\partightenfactor0
+\cf0 \'c3\'e2\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/taxonomy/\
+\
+\
+\
+<\'b1\'e2\'ba\'bb\'be\'e7\'bd\'c4> \
+qiime feature-classifier classify-sklearn \\\
+  --i-classifier gg-13-8-99-515-806-nb-classifier.qza \\\
+  --i-reads rep-seqs.qza \\\
+  --o-classification taxonomy.qza\
+\
+\
+qiime metadata tabulate \\\
+  --m-input-file taxonomy.qza \\\
+  --o-visualization taxonomy.qzv\
+\
+<\'b3\'bb \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'be\'e7\'bd\'c4>\
+mkdir taxonomy\
+\
+wget -O 'gg-13-8-99-515-806-nb-classifier.qza' \\\
+  'https://moving-pictures-tutorial.readthedocs.io/en/latest/data/moving-pictures/gg-13-8-99-515-806-nb-classifier.qza'\
+\
+\
+qiime feature-classifier classify-sklearn \\\
+  --i-classifier /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/gg-13-8-99-515-806-nb-classifier.qza \\\
+  --i-reads /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/rep-seqs.qza \\\
+  --o-classification /Users/iseungjun/Desktop/test_qiime2/qiime/taxonomy/taxonomy.qza\
+qiime metadata tabulate \\\
+  --m-input-file /Users/iseungjun/Desktop/test_qiime2/qiime/taxonomy/taxonomy.qza \\\
+  --o-visualization /Users/iseungjun/Desktop/test_qiime2/qiime/taxonomy/taxonomy.qzv\
+\
+\'c0\'d4\'b7\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'e6\'b7\'ce: \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/\
+\cf0 \CocoaLigature1 \'c0\'d4\'b7\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'e6\'b7\'ce: \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\
+\cf0 \CocoaLigature1 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/taxonomy\
+\cf0 \CocoaLigature1 \
+\
+qiime taxa barplot \\\
+  --i-table \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/\cf0 \CocoaLigature1 table.qza \\\
+  --i-taxonomy taxonomy.qza \\\
+  --m-metadata-file \cf8 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf0 \CocoaLigature1 sample-metadata.tsv \\\
+  --o-visualization taxa-bar-plots.qzv\
+\
+\
+\
+\pard\pardeftab720\sa360\partightenfactor0
+\cf7 \cb3 \expnd0\expndtw0\kerning0
+9.Differential abundance testing with ANCOM-BC\
+\pard\pardeftab720\partightenfactor0
+\cf5 ANCOM-BC\'b4\'c2 \'c7\'a5\'ba\'bb \'b1\'d7\'b7\'ec \'b0\'a3\'bf\'a1 \'c2\'f7\'c0\'cc\'b0\'a1 \'c0\'d6\'b4\'c2 \'c7\'b3\'ba\'ce\'b5\'b5(\'c1\'ef, \'c7\'b3\'ba\'ce\'b5\'b5\'b0\'a1 \'b4\'d9\'b8\'a5) \'c6\'af\'c2\'a1\'c0\'bb \'bd\'c4\'ba\'b0\'c7\'cf\'b4\'c2 \'b5\'a5 \'c0\'fb\'bf\'eb\'b5\'c9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'b4\'d9\'b8\'a5 \'bb\'fd\'b9\'b0\'c1\'a4\'ba\'b8\'c7\'d0 \'b9\'e6\'b9\'fd\'b0\'fa \'b8\'b6\'c2\'f9\'b0\'a1\'c1\'f6\'b7\'ce, ANCOM-BC\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'fc\'bf\'a1 ANCOM-BC\'c0\'c7 \'b0\'a1\'c1\'a4\'b0\'fa \'c7\'d1\'b0\'e8\'b8\'a6 \'bc\'f7\'c1\'f6\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc \'b9\'e6\'b9\'fd\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'fc\'bf\'a1\uc0\u160 \cf6 ANCOM-BC \'b3\'ed\'b9\'ae\'c0\'bb\cf5 \uc0\u160 \'b0\'cb\'c5\'e4\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'c1\'c1\'bd\'c0\'b4\'cf\'b4\'d9\
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb10 \'b8\'b6\'c0\'cc\'c5\'a9\'b7\'ce\'b9\'d9\'c0\'cc\'bf\'c8 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1\'bc\'ad \'bb\'f9\'c7\'c3 \'c0\'af\'c7\'fc\'ba\'b0\'b7\'ce \'c2\'f7\'b5\'ee\'c0\'fb\'c0\'b8\'b7\'ce \'c7\'b3\'ba\'ce\'c7\'d1 \'c6\'af\'c2\'a1\'c0\'bb \'c1\'a4\'c8\'ae\'c7\'cf\'b0\'d4 \'bd\'c4\'ba\'b0\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'ba \'be\'ee\'b7\'c1\'bf\'ee \'b9\'ae\'c1\'a6\'c0\'cc\'b8\'e7 \'be\'c6\'c1\'f7 \'b9\'cc\'b0\'b3\'c3\'b4 \'bf\'ac\'b1\'b8 \'ba\'d0\'be\'df\'c0\'d4\'b4\'cf\'b4\'d9. \'c0\'cc \'c0\'db\'be\'f7\'bf\'a1 \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 QIIME 2 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce\'c0\'cc \'c7\'cf\'b3\'aa \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9\uc0\u160 \cf4 q2-composition\cf5 (\'c0\'cc \'bc\'bd\'bc\'c7\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb). \'c0\'cc \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce\'bf\'a1 \'c6\'f7\'c7\'d4\'b5\'c8 \'b9\'e6\'b9\'fd \'bf\'dc\'bf\'a1\'b5\'b5 \'c2\'f7\'b5\'ee \'c7\'b3\'ba\'ce\'b5\'b5 \'b0\'cb\'c1\'a4\'c0\'bb \'c0\'a7\'c7\'d1 \'bb\'f5\'b7\'ce\'bf\'ee \'c1\'a2\'b1\'d9\'b9\'fd\'c0\'cc \'c1\'a4\'b1\'e2\'c0\'fb\'c0\'b8\'b7\'ce \'bc\'d2\'b0\'b3\'b5\'c7\'b0\'ed \'c0\'d6\'c0\'b8\'b8\'e7, \'c2\'f7\'b5\'ee \'c7\'b3\'ba\'ce\'b5\'b5 \'b0\'cb\'c1\'a4\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'d2 \'b6\'a7 \'c7\'d8\'b4\'e7 \'ba\'d0\'be\'df\'c0\'c7 \'c7\'f6\'c0\'e7 \'bb\'f3\'c8\'b2\'c0\'bb \'c6\'f2\'b0\'a1\'c7\'cf\'bf\'a9 \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1 \'c0\'af\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'bb\'f5\'b7\'ce\'bf\'ee \'b9\'e6\'b9\'fd\'c0\'cc \'c0\'d6\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'c1\'c1\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+\pard\pardeftab720\sa400\partightenfactor0
+\cf5 \cb3 ANCOM-BC\'b4\'c2 \'b1\'d7\'b7\'ec \'b0\'a3\'bf\'a1 \'c2\'f7\'c0\'cc\'b0\'a1 \'c0\'d6\'b4\'c2 \'c7\'b3\'ba\'ce\'c7\'d1 \'c6\'af\'c2\'a1\'c0\'bb \'c5\'d7\'bd\'ba\'c6\'ae\'c7\'cf\'b4\'c2 \'b5\'bf\'bd\'c3\'bf\'a1 \'c6\'ed\'c7\'e2 \'ba\'b8\'c1\'a4\'c0\'bb \'b1\'b8\'c7\'f6\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b1\'b8\'bc\'ba \'c0\'ce\'bd\'c4 \'bc\'b1\'c7\'fc \'c8\'b8\'b1\'cd \'b8\'f0\'b5\'a8\'b7\'ce, \'c7\'f6\'c0\'e7\uc0\u160 \cf4 q2-composition\cf5 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce\'bf\'a1 \'b1\'b8\'c7\'f6\'b5\'c7\'be\'ee \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'bd\'c5\'c3\'bc \'ba\'ce\'c0\'a7\'ba\'b0\'b7\'ce \'b8\'b9\'c0\'ba \'c6\'af\'c2\'a1\'c0\'cc \'c7\'b3\'ba\'ce\'c7\'cf\'b0\'d4 \'ba\'af\'c7\'d2 \'b0\'cd\'c0\'b8\'b7\'ce \'bf\'b9\'bb\'f3\'b5\'c7\'b9\'c7\'b7\'ce, \'c0\'cc \'c6\'a9\'c5\'e4\'b8\'ae\'be\'f3\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'fc\'c3\'bc \'c6\'af\'c2\'a1 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'c7\'ca\'c5\'cd\'b8\'b5\'c7\'cf\'bf\'a9 \'c0\'e5 \'bb\'f9\'c7\'c3\'b8\'b8 \'c6\'f7\'c7\'d4\'c7\'cf\'b5\'b5\'b7\'cf \'c7\'cf\'b0\'da\'bd\'c0\'b4\'cf\'b4\'d9. \'b1\'d7\'b7\'b1 \'b4\'d9\'c0\'bd ANCOM-BC\'b8\'a6 \'c0\'fb\'bf\'eb\'c7\'cf\'bf\'a9 \'b5\'ce \'c7\'c7\'c7\'e8\'c0\'da\'c0\'c7 \'c0\'e5 \'bb\'f9\'c7\'c3\'bf\'a1\'bc\'ad \'be\'ee\'b6\'b2 \'bc\'ad\'bf\'ad \'ba\'af\'c0\'cc\'bf\'cd \'bc\'d3\'c0\'cc \'c2\'f7\'b5\'ee\'c0\'fb\'c0\'b8\'b7\'ce \'c7\'b3\'ba\'ce\'c7\'cf\'b0\'d4 \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\'c7\'d5\'b4\'cf\'b4\'d9.\
+\'b8\'d5\'c0\'fa \'b3\'bb\'c0\'e5 \'bb\'f9\'c7\'c3\'b8\'b8 \'c6\'f7\'c7\'d4\'c7\'cf\'b4\'c2 \'c7\'c7\'c3\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'b8\'b8\'b5\'e9\'be\'ee \'ba\'b8\'b0\'da\'bd\'c0\'b4\'cf\'b4\'d9.\
+\pard\pardeftab720\partightenfactor0
+\cf5 \'c0\'d4\'b7\'c2 \'b0\'e6\'b7\'ce: \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/ancom_bc\cf5 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \
+\pard\pardeftab720\sa360\partightenfactor0
+\cf7 qiime feature-table filter-samples \\\
+  --i-table \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/dada2/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 table.qza \\\
+  --m-metadata-file \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 sample-metadata.tsv \\\
+  --p-where '[body-site]="gut"' \\\
+  --o-filtered-table gut-table.qza\
+\
+\
+qiime composition ancombc \\\
+  --i-table gut-table.qza \\\
+  --m-metadata-file \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 sample-metadata.tsv \\\
+  --p-formula subject \\\
+  --o-differentials ancombc-subject.qza\
+\
+qiime composition da-barplot \\\
+  --i-data ancombc-subject.qza \\\
+  --p-significance-threshold 0.001 \\\
+  --o-visualization da-barplot-subject.qzv\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb11 \'c1\'fa\'b9\'ae.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa60\partightenfactor0
+\ls2\ilvl0\cf5 \cb10 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\'b1\'e2\'c1\'d8 \'b9\'b0\'c1\'fa \'b4\'eb\'ba\'f1 \'be\'ee\'b4\'c0 ASV\'b0\'a1 \'b0\'a1\'c0\'e5 \'c7\'b3\'ba\'ce\'c7\'cf\'b0\'ed, \'be\'ee\'b4\'c0 ASV\'b0\'a1 \'b0\'a1\'c0\'e5 \'b0\'ed\'b0\'a5\'b5\'c7\'be\'fa\'b3\'aa\'bf\'e4?\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa60\partightenfactor0
+\ls2\ilvl0\cf5 \cb10 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+(\'b1\'e2\'ba\'bb\'b0\'aa)\uc0\u160 \cf4 reference-level\cf5 \'bf\'a1\'bc\'ad \'b7\'ce \'ba\'af\'b0\'e6\'c7\'cf\'b8\'e9\uc0\u160 \'b9\'ab\'be\'f9\'c0\'cc \'ba\'af\'b0\'e6\'b5\'c9 \'b0\'cd\'c0\'b8\'b7\'ce \'bf\'b9\'bb\'f3\'c7\'cf\'bd\'ca\'b4\'cf\'b1\'ee\u160 ?\cf4 subject-1subject-2\cf5 \cb1 \
+\pard\pardeftab720\sa400\partightenfactor0
+\cf5 \cb3 \'c6\'af\'c1\'a4 \'ba\'d0\'b7\'f9 \'bc\'f6\'c1\'d8\'bf\'a1\'bc\'ad \'c2\'f7\'b5\'ee \'c7\'b3\'ba\'ce\'b5\'b5 \'b0\'cb\'c1\'a4\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'cf\'b4\'c2 \'b5\'a5 \'b0\'fc\'bd\'c9\'c0\'cc \'c0\'d6\'b4\'c2 \'b0\'e6\'bf\'ec\'b0\'a1 \'b8\'b9\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc\'b8\'a6 \'c0\'a7\'c7\'d8\uc0\u160 \cf4 FeatureTable[Frequency]\cf5 \'b0\'fc\'bd\'c9 \'ba\'d0\'b7\'f9 \'bc\'f6\'c1\'d8\'bf\'a1\'bc\'ad \'c7\'c7\'c3\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'c3\'e0\'bc\'d2\'c7\'d1 \'c8\'c4 \'c0\'a7 \'b4\'dc\'b0\'e8\'b8\'a6 \'b4\'d9\'bd\'c3 \'bd\'c7\'c7\'e0\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc \'c6\'a9\'c5\'e4\'b8\'ae\'be\'f3\'bf\'a1\'bc\'ad\'b4\'c2 \'c7\'c7\'c3\'b3 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'bc\'d3 \'bc\'f6\'c1\'d8(\'c1\'ef, Greengenes \'ba\'d0\'b7\'f9 \'c3\'bc\'b0\'e8\'c0\'c7 \'b7\'b9\'ba\'a7 6)\'bf\'a1\'bc\'ad \'c3\'e0\'bc\'d2\'c7\'d5\'b4\'cf\'b4\'d9.\
+\'c0\'d4\'b7\'c2 \'b5\'a5\'c0\'cc\'c5\'cd \'b0\'e6\'b7\'ce: \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 taxonomy/\
+\cf5 \'c0\'d4\'b7\'c2 \'b5\'a5\'c0\'cc\'c5\'cd \'b0\'e6\'b7\'ce: \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\
+\'c3\'e2\'b7\'c2 \'b0\'e6\'b7\'ce: /Users/iseungjun/Desktop/test_qiime2/qiime/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 taxonomy/ancom_bc\cf5 \
+\pard\pardeftab720\sa360\partightenfactor0
+\cf7 qiime taxa collapse \\\
+  --i-table gut-table.qza \\\
+  --i-taxonomy \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 taxonomy/taxonomy.qza \\\
+  --p-level 6 \\\
+  --o-collapsed-table gut-table-l6.qza\
+mv gut-table-l6.qza \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 taxonomy/gut-table-l6.qza\
+\
+qiime composition ancombc \\\
+  --i-table gut-table-l6.qza \\\
+  --m-metadata-file \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/raw_data/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 sample-metadata.tsv \\\
+  --p-formula subject \\\
+  --o-differentials l6-ancombc-subject.qza\
+\
+mv gut-table-l6.qza \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 /Users/iseungjun/Desktop/test_qiime2/qiime/\cf7 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 taxonomy/gut-table-l6.qza\
+\
+qiime composition da-barplot \\\
+  --i-data l6-ancombc-subject.qza \\\
+  --p-significance-threshold 0.001 \\\
+  --o-visualization l6-da-barplot-subject.qzv\
+\
+\pard\pardeftab720\sa360\partightenfactor0
+
+\f1 \cf7 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+}
