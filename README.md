@@ -10,7 +10,7 @@ url - https://velog.io/@sicho1212/series/Qiime2
 ### 블로그 글 참고
 
 - 아래는 로컬에서 진행한 자료구조
-
+```zsh
 ├── dada2
 │   ├── rep-seqs.qza
 │   ├── stats.qza
@@ -85,3 +85,4 @@ url - https://velog.io/@sicho1212/series/Qiime2
     ├── taxa-bar-plots.qzv
     ├── taxonomy.qza
     └── taxonomy.qzv
+```
