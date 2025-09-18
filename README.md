@@ -11,6 +11,7 @@ url - https://velog.io/@sicho1212/series/Qiime2
 
 - 아래는 로컬에서 진행한 자료구조
 ```zsh
+Moving_pictures
 ├── dada2
 │   ├── rep-seqs.qza
 │   ├── stats.qza
